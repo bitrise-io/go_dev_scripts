@@ -18,7 +18,7 @@ go get -u github.com/tools/godep
 go install github.com/tools/godep
 godep restore
 
-# Intsall stepman
+# Intsall 
 godep go install
 
 # Check for unhandled errors
