@@ -17,7 +17,7 @@ export PATH="$PATH:$GOPATH/bin"
 
 set -v
 
-# Install depenecies
+# Install dependencies
 go get -u github.com/tools/godep
 go install github.com/tools/godep
 godep restore
